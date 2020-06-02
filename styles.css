@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+}
+
+section {
+    min-height: 300px;
+    padding: 6% 0;
+    background-color: #bbb;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: grey;
+}
+
+header {
+    padding: 8% 0;
+}
+
+.bioImage {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bioContent {
+    background-color: white;
+    width: 30%;
+    height: 350px;
+
+}
+
+footer {
+    background-color: grey;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        height: 40px;
+        background-color: rgb(196, 0, 0);
+
+    }
+
+    header {
+        background-color: 
+    }
+
+    .bioImage {
+        flex-direction: column; 
+        text-align: center;
+
+    }
+
+    .bioContent {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10%;
+        width: 300px;
+    }
+
+    .image {
+        margin-top: 40px;
+    }
+
+    footer {
+        background-color: rgb(196, 0, 0);
+    }
+
+}
